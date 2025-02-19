@@ -1,11 +1,8 @@
 import matplotlib
-from matplotlib import font_manager
-
-# Clear and rebuild the font cache
-font_manager._rebuild()
+matplotlib.use('Agg')  # Use Agg backend to avoid GUI-based dependencies
+import matplotlib.pyplot as plt
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
 import numpy as np
 import plotly.express as px
 
