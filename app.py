@@ -1,5 +1,9 @@
+import matplotlib.font_manager
+matplotlib.font_manager._rebuild()
 import streamlit as st
 import pandas as pd
+import matplotlib
+matplotlib.use('Agg')  # Использование бэкенда Agg для немедленного отображения
 import matplotlib.pyplot as plt
 import numpy as np
 import plotly.express as px
