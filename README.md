@@ -1,9 +1,9 @@
 # crypto_wallets_clusterization
-# Создаем виртуальное окружение
+- Создаем виртуальное окружение
 python -m venv venv
 
-# Активируем его (Windows)
+- Активируем его (Windows)
 venv\Scripts\activate
 
-# Для macOS/Linux
+- Для macOS/Linux
 source venv/bin/activate
