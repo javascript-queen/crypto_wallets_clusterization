@@ -1,5 +1,6 @@
 import matplotlib
-matplotlib.use('Agg')  # Use Agg backend to avoid GUI-based dependencies
+import matplotlib.font_manager
+matplotlib.font_manager._load_fontmanager(try_read_cache=False)
 import matplotlib.pyplot as plt
 import streamlit as st
 import pandas as pd
