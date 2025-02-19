@@ -1,6 +1,8 @@
 import matplotlib
-import matplotlib.font_manager
-matplotlib.font_manager._rebuild()
+from matplotlib import font_manager
+
+# Clear and rebuild the font cache
+font_manager._rebuild()
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
